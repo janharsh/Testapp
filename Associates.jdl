@@ -1,0 +1,29 @@
+/**
+ * The Entity entity.
+ * @author A true hipster
+ */
+entity Associates {
+    /** fieldName */
+    associate String,
+
+}
+entity Skills{
+
+    skills String 
+}
+
+/**
+ * One to many relationship.
+ */
+/**
+ * One to many relationship.
+ */
+
+/**
+ * Many to one relationship.
+ */
+relationship ManyToMany {
+    
+   Associates{bskills(skills)} to Skills{askills}
+
+}

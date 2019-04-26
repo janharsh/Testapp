@@ -1,0 +1,28 @@
+{
+    "name": "Skills",
+    "fields": [
+        {
+            "fieldName": "skills",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "associates",
+            "otherEntityRelationshipName": "bskills",
+            "relationshipName": "askills",
+            "otherEntityField": "id",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20190418174804",
+    "entityTableName": "skills",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

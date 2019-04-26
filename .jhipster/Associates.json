@@ -1,0 +1,30 @@
+{
+    "name": "Associates",
+    "fields": [
+        {
+            "fieldName": "associate",
+            "javadoc": "fieldName",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "skills",
+            "otherEntityRelationshipName": "askills",
+            "relationshipName": "bskills",
+            "otherEntityField": "skills",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20190418163633",
+    "javadoc": "The Entity entity.\n@author A true hipster",
+    "entityTableName": "associates",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
